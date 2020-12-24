@@ -20,7 +20,8 @@ public class Bb implements ActionListener {
         panel = new JPanel();
         frame = new JFrame();
 
-        frame.setSize(780,850);
+        frame.setSize(780,680);
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Le Saviez-vous?");
         frame.setFont(Font.getFont("Comic Sans MS"));
