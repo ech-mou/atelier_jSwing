@@ -20,7 +20,7 @@ public class Bb implements ActionListener {
         panel = new JPanel();
         frame = new JFrame();
 
-        frame.setSize(100,100);
+        frame.setSize(780,850);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Le Saviez-vous?");
         frame.setFont(Font.getFont("Comic Sans MS"));
@@ -38,10 +38,7 @@ public class Bb implements ActionListener {
         panel.add(label);
 
 
-        /*JTextField userText = new JTextField();
-        userText.setBounds(100,20,164,23);
-        frame.setVisible(true);*/
-
+     
 
         label1 = new JLabel("La bière ne fait pas prendre du ventre");
         label1.setBounds(10, 300, 900, 50);
@@ -66,12 +63,23 @@ public class Bb implements ActionListener {
 
         ArrayList<String> quotes = new ArrayList<>();
         quotes.add("Etre amoureux vous rend fainéant");
+        quotes.add(" vous rend fainéant");
+        quotes.add("Etre  fainéant");
+        quotes.add("d fainéant");
+        quotes.add("amoureux ");
+        quotes.add("OK");
+        quotes.add("vous rend fainéan");
+        quotes.add("Etre amoureux vous rend fainéant");
+        quotes.add("Etre  fainéant");
+        quotes.add("d fainéant");
+        quotes.add("amoureux");
+        quotes.add("OK");
+
+        
 
 
 
-
-
-        int indx = (int) (Math.random()* (quotes.size()  - 1) + 0);
+        int indx = (int) (Math.random()* (quotes.size()  - 1) );
         Random color = new Random();
 
 
